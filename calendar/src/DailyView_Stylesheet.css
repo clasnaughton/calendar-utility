@@ -1,0 +1,117 @@
+.root {
+    -fx-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXpdA8lLh-laTS5Bt7YgfQezd_6mBpPsi1MtPDd20061z7anRZw);
+    -fx-padding: 20;
+}
+
+.button {
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: grey;
+    -fx-border-width: 2;
+    -fx-background-color: #9AD0EF;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+}
+
+.button:hover {
+    -fx-background-color: #E49595;
+}
+
+
+.eventBox {
+    -fx-background-color: transparent;
+    -fx-font: 16px Tahoma;
+    -fx-stroke: black;
+
+}
+
+.editEventButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+
+}
+
+.editEventButton:hover {
+    -fx-background-color: #FFFFFF;
+    -fx-opacity: 20%;
+}
+
+.descrPopup {
+    -fx-background-color: transparent;
+    -fx-font: 15px Tahoma;
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+
+}
+
+.stackPane {
+    -fx-background-color: #FFFFFF;
+}
+
+.DayText {
+    -fx-font: 17px Tahoma;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+.HeaderText {
+    -fx-font: 10px Tahoma;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-alignment: center;
+}
+
+.choice-box {
+    -fx-padding: 1 22 1 22;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+}
+
+.specialButton {
+    -fx-alignment: center-left;
+    -fx-border-color: black;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.specialButton:hover{
+    -fx-background-color: #E49595;
+    -fx-opacity: 50%;
+    -fx-border-color: #E49595;
+}
+
+.VBox {
+    -fx-alignment: center-left;
+    -fx-border-color: black;
+    -fx-background-color: #B5E6DA;
+    -fx-opacity: 80%;
+    -fx-padding: 5;
+    -fx-border-width: 2;
+}
+
+.DailyHeader{
+    -fx-font: 50px Tahoma;
+    -fx-stroke: black;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+.borderPane{
+    -fx-padding: 15 0 0 0;
+    -fx-border-width: 2;
+}
+
+.VBoxSpecial {
+    -fx-padding: 0 0 0 15;
+}
+
+.VBoxHeader {
+    -fx-font: 20px Tahoma;
+    -fx-stroke: black;
+    -fx-alignment: center;
+}

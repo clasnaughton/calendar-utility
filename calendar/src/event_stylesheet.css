@@ -1,0 +1,48 @@
+.control{
+    -fx-background-color: #FFFFFF;
+}
+.textHeader{
+    -fx-font: 20px Tahoma;
+}
+.choice-box{
+    -fx-min-width: 50;
+    -fx-border-width: 1;
+    -fx-background-color: #FFFFFF;
+}
+.radio-button  {
+    -fx-selected-color: black;
+    -fx-unselected-color: #FFFFFF;
+}
+.label{
+    -fx-font: 15px Tahoma;
+}
+.cbRed .box{
+    -fx-background-color: red;
+    -fx-opacity: 50;
+}
+.cbOrange .box{
+    -fx-background-color: orange;
+    -fx-opacity: 50;
+}
+.cbYellow .box{
+    -fx-background-color: yellow;
+    -fx-opacity: 50;
+}
+.cbGreen .box{
+    -fx-background-color: green;
+    -fx-opacity: 50;
+}
+.cbBlue .box{
+    -fx-background-color: blue;
+    -fx-opacity: 50;
+}
+.cbPurple .box{
+    -fx-background-color: purple;
+    -fx-opacity: 50;
+}
+.cancelButton{
+    -fx-text-fill: red;
+}
+.saveButton{
+    -fx-text-fill: green;
+}
